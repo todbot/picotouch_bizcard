@@ -5,6 +5,108 @@
 	(uuid "5e315703-690d-40b0-a846-b905406b612c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1500,6 +1602,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Switch:Capacitive Button"
 			(pin_names
 				(offset 0) hide)
@@ -1875,6 +2059,46 @@
 		(color 0 0 0 0)
 		(uuid "e9614931-fd15-407f-a43f-9e6d292664bc")
 	)
+	(no_connect
+		(at 82.55 99.06)
+		(uuid "000d34ea-e122-4ddf-b882-b783d0bae31d")
+	)
+	(no_connect
+		(at 80.01 99.06)
+		(uuid "1f648e3b-bc9b-4b8f-9efa-5ba2fa980641")
+	)
+	(no_connect
+		(at 77.47 99.06)
+		(uuid "2f33f355-c955-48bb-809d-a952cacadc0b")
+	)
+	(no_connect
+		(at 97.79 53.34)
+		(uuid "45d0ced8-a10d-4801-8c53-70a0b0495144")
+	)
+	(no_connect
+		(at 97.79 71.12)
+		(uuid "6c1735f3-4aa3-4a3b-b202-0f8d10d9eba1")
+	)
+	(no_connect
+		(at 97.79 60.96)
+		(uuid "763c4fef-7020-4328-99b8-754ca3edddfd")
+	)
+	(no_connect
+		(at 97.79 48.26)
+		(uuid "8d1ea87e-64e9-4fa6-a400-65cbdee0039c")
+	)
+	(no_connect
+		(at 97.79 58.42)
+		(uuid "9de08dd6-7332-4bf2-bbb8-cffa642fef01")
+	)
+	(no_connect
+		(at 97.79 45.72)
+		(uuid "9f7f89a0-40e0-4308-a56a-039f2af969a1")
+	)
+	(no_connect
+		(at 87.63 181.61)
+		(uuid "bf863c72-fe21-4764-9972-2bc4ff0e0177")
+	)
 	(wire
 		(pts
 			(xy 49.53 81.28) (xy 62.23 81.28)
@@ -1894,16 +2118,6 @@
 			(type default)
 		)
 		(uuid "079825aa-4fe2-4874-b2e8-8f9e177fb3a9")
-	)
-	(wire
-		(pts
-			(xy 254 -13.97) (xy 265.43 -13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0897e65c-e840-4bb4-bf17-be3a11bc7e5a")
 	)
 	(wire
 		(pts
@@ -1937,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 58.42) (xy 62.23 58.42)
+			(xy 57.15 58.42) (xy 62.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1964,16 +2178,6 @@
 			(type default)
 		)
 		(uuid "257afc36-c04f-4541-8bcc-c6580a250836")
-	)
-	(wire
-		(pts
-			(xy 208.28 -41.91) (xy 218.44 -41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27abf73a-05ea-4e48-88f9-7a164f1ed275")
 	)
 	(wire
 		(pts
@@ -2004,6 +2208,16 @@
 			(type default)
 		)
 		(uuid "2bafb1ce-b0e5-44d9-9e7a-9b42d6a5e70e")
+	)
+	(wire
+		(pts
+			(xy 52.07 45.72) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c40b4ca-6f3b-44c2-bd90-c93f40a40a22")
 	)
 	(wire
 		(pts
@@ -2047,26 +2261,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -24.13) (xy 218.44 -24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "429aa031-ece1-4079-891f-4fdcbcc9778d")
-	)
-	(wire
-		(pts
-			(xy 254 -26.67) (xy 265.43 -26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43788a9f-4849-4f4d-86fb-f72b5874d612")
-	)
-	(wire
-		(pts
 			(xy 97.79 81.28) (xy 111.76 81.28)
 		)
 		(stroke
@@ -2074,16 +2268,6 @@
 			(type default)
 		)
 		(uuid "462ef8d4-5746-4057-b970-e050e6e8e54c")
-	)
-	(wire
-		(pts
-			(xy 254 -16.51) (xy 265.43 -16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497e5af0-4904-47fb-95a9-f649913a9e9c")
 	)
 	(wire
 		(pts
@@ -2104,16 +2288,6 @@
 			(type default)
 		)
 		(uuid "563e4a1b-a541-4e24-9d2d-da60a1f62151")
-	)
-	(wire
-		(pts
-			(xy 208.28 -13.97) (xy 218.44 -13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6668810a-8f43-4f66-b88d-6fe825bf488d")
 	)
 	(wire
 		(pts
@@ -2197,16 +2371,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -54.61) (xy 218.44 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811cd4ca-19e3-43d6-a60e-a406fccafae9")
-	)
-	(wire
-		(pts
 			(xy 97.79 93.98) (xy 111.76 93.98)
 		)
 		(stroke
@@ -2247,16 +2411,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -39.37) (xy 218.44 -39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df3248c-0a57-4715-b90d-59465ab70453")
-	)
-	(wire
-		(pts
 			(xy 187.96 83.82) (xy 201.93 83.82)
 		)
 		(stroke
@@ -2267,23 +2421,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -52.07) (xy 218.44 -52.07)
+			(xy 52.07 48.26) (xy 62.23 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "960a87f2-7ffc-4c34-ab66-7ae49debdad1")
-	)
-	(wire
-		(pts
-			(xy 208.28 -46.99) (xy 218.44 -46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa69909-91aa-4f4b-ab9c-eb208317c515")
+		(uuid "914db2d4-3e22-4556-99f5-966b3c85c7ea")
 	)
 	(wire
 		(pts
@@ -2347,16 +2491,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -26.67) (xy 218.44 -26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b483d2a6-263b-4720-96b7-c54dbfb499bc")
-	)
-	(wire
-		(pts
 			(xy 187.96 147.32) (xy 201.93 147.32)
 		)
 		(stroke
@@ -2397,16 +2531,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -21.59) (xy 218.44 -21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5a8f7e-ceb7-4bba-ad10-03e92c6a3bbe")
-	)
-	(wire
-		(pts
 			(xy 236.22 27.94) (xy 246.38 27.94)
 		)
 		(stroke
@@ -2414,16 +2538,6 @@
 			(type default)
 		)
 		(uuid "cc0c001e-ad4b-4dbf-aeca-c23efc205eed")
-	)
-	(wire
-		(pts
-			(xy 208.28 -16.51) (xy 218.44 -16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6a76e6-e72b-4b0b-977e-74ce50b12d29")
 	)
 	(wire
 		(pts
@@ -2444,16 +2558,6 @@
 			(type default)
 		)
 		(uuid "d789a31b-83df-4c5a-8dd2-91dea5f5a23d")
-	)
-	(wire
-		(pts
-			(xy 255.27 -57.15) (xy 254 -57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b4e116-80f1-4a96-909c-9006f5d1b64d")
 	)
 	(wire
 		(pts
@@ -2487,16 +2591,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -29.21) (xy 218.44 -29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0349bfc-345b-4f80-a63a-7c7e3bb17640")
-	)
-	(wire
-		(pts
 			(xy 236.22 107.95) (xy 246.38 107.95)
 		)
 		(stroke
@@ -2507,16 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 -36.83) (xy 218.44 -36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ad46f6-b41d-438c-9d59-7a39f99100ba")
-	)
-	(wire
-		(pts
 			(xy 49.53 93.98) (xy 62.23 93.98)
 		)
 		(stroke
@@ -2524,16 +2608,6 @@
 			(type default)
 		)
 		(uuid "f3e5a848-2ca8-407c-9cae-a4dbfaccf345")
-	)
-	(wire
-		(pts
-			(xy 208.28 -34.29) (xy 218.44 -34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f41111fe-98bb-47e1-83ba-d7a1d0b36023")
 	)
 	(wire
 		(pts
@@ -2554,16 +2628,6 @@
 			(type default)
 		)
 		(uuid "f8869942-e471-4926-b190-77972240bb59")
-	)
-	(wire
-		(pts
-			(xy 208.28 -49.53) (xy 218.44 -49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdff87e1-e39c-4d56-a4a3-2336da7ae277")
 	)
 	(label "TOUCH6"
 		(at 49.53 68.58 0)
@@ -2675,8 +2739,8 @@
 		)
 		(uuid "298dd62f-d70a-49e1-a364-ef968c555567")
 	)
-	(label "LED1"
-		(at 208.28 -29.21 0)
+	(label "TX"
+		(at 55.88 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2684,18 +2748,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2b24e5d1-96ae-415d-9436-38c6ac612a7d")
-	)
-	(label "TOUCH4"
-		(at 208.28 -46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c7a6d75-876a-4fc2-a1ec-3fe97b610f7f")
+		(uuid "2b30b42e-0590-4366-8b64-daf0fb728a6f")
 	)
 	(label "TOUCH8"
 		(at 49.53 73.66 0)
@@ -2751,17 +2804,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ff9c27f-e681-41b5-8c94-3353a0ac1b79")
-	)
-	(label "TOUCH8"
-		(at 208.28 -34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41d39ea1-f158-4698-bfa6-82bf4a89c4c4")
 	)
 	(label "TOUCH5"
 		(at 189.23 72.39 0)
@@ -2829,17 +2871,6 @@
 		)
 		(uuid "64d9bfce-5fda-4122-8e94-dd929a28b52e")
 	)
-	(label "MIDI_OUT"
-		(at 257.81 -26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6740a7a9-2e8e-4c31-9802-753452622c28")
-	)
 	(label "LED9"
 		(at 104.14 73.66 0)
 		(fields_autoplaced yes)
@@ -2861,17 +2892,6 @@
 			(justify left bottom)
 		)
 		(uuid "6aa96478-e578-41ee-bbd0-03139f4974cf")
-	)
-	(label "TOUCH5"
-		(at 208.28 -41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c56aba6-2338-4467-a694-45c9d8c31d89")
 	)
 	(label "LED5"
 		(at 237.49 72.39 0)
@@ -2994,28 +3014,6 @@
 		)
 		(uuid "941475b3-282b-4653-a16d-e91501f14c02")
 	)
-	(label "TOUCH1"
-		(at 208.28 -54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "956f8000-9850-45e9-b086-3e35ae1a9a05")
-	)
-	(label "TOUCH2"
-		(at 208.28 -52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4ee716b-9bd7-4f76-b417-17a7db836bc1")
-	)
 	(label "TOUCH7"
 		(at 49.53 71.12 0)
 		(fields_autoplaced yes)
@@ -3038,19 +3036,8 @@
 		)
 		(uuid "b0b868c0-6b21-40ca-958a-632b788752dd")
 	)
-	(label "LED2"
-		(at 208.28 -26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5cdc515-32bc-4f4d-bada-554ad90e72fa")
-	)
 	(label "TOUCH3"
-		(at 49.53 58.42 180)
+		(at 57.15 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3059,17 +3046,6 @@
 			(justify right bottom)
 		)
 		(uuid "b87825f7-9913-41d8-8ba6-3c3f1d0af611")
-	)
-	(label "TOUCH6"
-		(at 208.28 -39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbcb6b71-65d5-4b7d-8877-0f294b32bde5")
 	)
 	(label "TOUCH8"
 		(at 189.23 107.95 0)
@@ -3081,28 +3057,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1fd7e1e-e5d2-4c4d-8059-0caccd9dfd45")
-	)
-	(label "TOUCH7"
-		(at 208.28 -36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c91f6cbc-85e3-45b8-bee5-0dc6458d86c9")
-	)
-	(label "TOUCH3"
-		(at 208.28 -49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce2de207-51b2-413e-836d-10cac40b3c1a")
 	)
 	(label "LED4"
 		(at 104.14 93.98 0)
@@ -3147,6 +3101,17 @@
 			(justify left bottom)
 		)
 		(uuid "e7419540-bfd7-48fe-a88a-d3d2b312780e")
+	)
+	(label "RX"
+		(at 55.88 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee012bbe-3891-4126-8699-d481f7f3d826")
 	)
 	(label "LED4"
 		(at 237.49 60.96 0)
@@ -3254,6 +3219,70 @@
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02ea137a-22c2-4186-9623-b3a5b099ff5a")
+		(property "Reference" "TP3"
+			(at 51.054 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.974 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e539fa-e060-4634-88e3-6354f2662c4d")
+		)
+		(instances
+			(project "picotouch_bizcard"
+				(path "/5e315703-690d-40b0-a846-b905406b612c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3438,7 @@
 		(at 201.93 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3943,71 +3972,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 -19.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "227f1ba9-d0fc-41aa-9296-5547c523f3c9")
-		(property "Reference" "#PWR015"
-			(at 212.09 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.614 -18.796 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16f8441c-b3c0-4369-9483-71ed0578921d")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 62.23 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4274,71 +4238,6 @@
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 -44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34583524-d7af-471e-a0bd-7facb582f7c8")
-		(property "Reference" "#PWR016"
-			(at 260.35 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 258.826 -44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c6b7e75-6a17-41a4-a163-459b3f4567ed")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5030,71 +4929,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 -44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44acdd8b-3092-4bf5-8ea1-9ec82de3a194")
-		(property "Reference" "#PWR013"
-			(at 212.09 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.614 -44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c3858ad-7ab1-47cd-924e-ae404c79d5ea")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 196.85 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5163,7 +4997,7 @@
 		(at 201.93 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5641,7 +5475,7 @@
 		(at 201.93 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5763,6 +5597,71 @@
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "617066e0-61f4-4543-a2d2-c6f0c56465ae")
+		(property "Reference" "#PWR010"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.388 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "138e1b34-328b-4709-b1b1-3e75184915aa")
+		)
+		(instances
+			(project "picotouch_bizcard"
+				(path "/5e315703-690d-40b0-a846-b905406b612c"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6036,71 +5935,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 -57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7587c26e-2e4c-4ab2-b994-e3999774a4e4")
-		(property "Reference" "#PWR011"
-			(at 261.62 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.096 -57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd0c7285-72ba-47cf-844e-42e5d625add8")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 97.79 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6299,16 +6133,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 218.44 -31.75 270)
+		(lib_id "Connector:TestPoint")
+		(at 52.07 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7bad2f23-cd5e-4c01-bf33-87e085692286")
-		(property "Reference" "#PWR014"
-			(at 212.09 -31.75 0)
+		(uuid "82d517be-eb65-4539-8ed5-6c157bb80eb0")
+		(property "Reference" "TP2"
+			(at 51.054 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 45.974 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,16 +6166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 213.614 -32.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 -31.75 0)
+		(property "Datasheet" "~"
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,17 +6175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 218.44 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 -31.75 0)
+		(property "Description" "test point"
+			(at 52.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,79 +6185,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed342518-ab24-4ace-bf3c-45397aaf8f89")
+			(uuid "a90231d2-0efc-4ba4-bcf7-1cbf48246e68")
 		)
 		(instances
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 254 -52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e972d0b-fa30-43d2-8a70-3ee0314cf736")
-		(property "Reference" "#PWR010"
-			(at 250.19 -52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 257.81 -52.0701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 -52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 -52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 254 -52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adedec1e-b890-44a6-89a5-7c32b4c4e388")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR010")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6501,6 +6267,70 @@
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 124.46 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a54b485-2fd6-4d91-ba0e-dbd897bcba78")
+		(property "Reference" "H1"
+			(at 57.15 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "picotouch_bizcard"
+				(path "/5e315703-690d-40b0-a846-b905406b612c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6648,76 +6478,11 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 254 -19.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f009b0b-033e-4b42-9137-084b42e937ac")
-		(property "Reference" "#PWR018"
-			(at 260.35 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 258.826 -19.304 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47f562de-b4e7-4c0b-95a1-6b47508acd97")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Switch:Capacitive Button")
 		(at 201.93 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6987,7 +6752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0fcc62-b431-41bc-91dd-8d26af4f1b4f")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 73.66 178.4349 0)
 			(effects
 				(font
@@ -7047,7 +6812,7 @@
 		(instances
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7393,7 +7158,7 @@
 		(at 201.93 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7529,7 +7294,7 @@
 		(at 201.93 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7552,7 +7317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "todbot_stuff:Pad-CapacitiveTouch-SparkFun"
+		(property "Footprint" "SparkFun-Switch:Pad-CapacitiveTouch"
 			(at 194.31 27.94 0)
 			(effects
 				(font
@@ -7737,7 +7502,7 @@
 		(at 201.93 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7800,11 +7565,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf2179f8-e732-40a8-8b72-837a77b094ad")
+		(property "Reference" "TP1"
+			(at 51.054 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 45.974 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe20322-9c7c-4af9-8b7a-0265094b7f13")
+		)
+		(instances
+			(project "picotouch_bizcard"
+				(path "/5e315703-690d-40b0-a846-b905406b612c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Switch:Capacitive Button")
 		(at 201.93 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7871,7 +7700,7 @@
 		(at 201.93 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7928,71 +7757,6 @@
 			(project "picotouch_bizcard"
 				(path "/5e315703-690d-40b0-a846-b905406b612c"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 -31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6cd1f5f-276b-4dc5-83f1-6ea01d15c77f")
-		(property "Reference" "#PWR017"
-			(at 260.35 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 258.826 -32.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79ea0697-fdf8-4b65-b275-bdf8a87f5ba8")
-		)
-		(instances
-			(project "picotouch_bizcard"
-				(path "/5e315703-690d-40b0-a846-b905406b612c"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9136,7 +8900,7 @@
 		(at 201.93 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9203,7 +8967,7 @@
 		(at 201.93 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
