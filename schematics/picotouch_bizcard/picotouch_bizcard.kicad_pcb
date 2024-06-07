@@ -2342,7 +2342,7 @@
 		(path "/02ea137a-22c2-4186-9623-b3a5b099ff5a")
 		(sheetname "Root")
 		(sheetfile "picotouch_bizcard.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -3571,7 +3571,7 @@
 		(path "/bf2179f8-e732-40a8-8b72-837a77b094ad")
 		(sheetname "Root")
 		(sheetfile "picotouch_bizcard.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -4137,7 +4137,7 @@
 		(path "/82d517be-eb65-4539-8ed5-6c157bb80eb0")
 		(sheetname "Root")
 		(sheetfile "picotouch_bizcard.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -1.2)
@@ -5500,7 +5500,7 @@
 		(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)")
 		(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
 		(property "Reference" "J1"
-			(at 0.05 5.35 180)
+			(at -1.33 -0.202 180)
 			(layer "B.SilkS")
 			(uuid "2444e428-d426-4b7c-8ca3-5f7e07f8a99e")
 			(effects
@@ -12619,6 +12619,18 @@
 		(layer "Edge.Cuts")
 		(uuid "b980026b-3f5f-401c-b856-50692f947f09")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 183.515 71.12 0)
+		(layer "B.SilkS")
+		(uuid "0f902927-afbb-46be-a528-bbdbe02166a7")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "MIDI OUT\nTRS-A"
 		(at 177.165 40.005 0)
 		(layer "B.SilkS")
@@ -12677,19 +12689,6 @@
 				(thickness 0.508)
 				(bold yes)
 			)
-		)
-	)
-	(gr_text "@todbot\n"
-		(at 103.378 52.578 0)
-		(layer "F.SilkS")
-		(uuid "0458f397-60d8-4736-b581-a0308b58277b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "0"
@@ -12788,7 +12787,7 @@
 			)
 		)
 	)
-	(gr_text "picotouch_bizcard USB/MIDI controller"
+	(gr_text "picotouch_bizcard USB/MIDI controller / @todbot"
 		(at 103.378 50.546 0)
 		(layer "F.SilkS")
 		(uuid "aea77748-7d85-4cd3-a25a-862a16ff5709")
