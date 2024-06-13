@@ -12,7 +12,7 @@ import busio
 import pwmio
 import touchio
 import usb_midi
-import tmidi
+import tmidi  # https://github.com/todbot/CircuitPython_TMIDI
 
 enable_pressure = True
 press_min = 1500
